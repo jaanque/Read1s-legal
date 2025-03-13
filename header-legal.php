@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/logo_dark.png" type="image/x-icon">
     <!-- Custom styles -->
-    <link href="header.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,26 +33,25 @@
                         <a class="nav-link" href="index.php">Read message</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="create.php">Privacy Policy</a>
+                        <a class="nav-link" href="Privacy-Policy.php">Privacy Policy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="view.php">Terms of Service</a>
+                        <a class="nav-link" href="Terms-of-Service.php">Terms of Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="view.php">Legal Notice</a>
+                        <a class="nav-link" href="Legal-Notice.php">Legal Notice</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="view.php">Cookie Policy</a>
+                        <a class="nav-link" href="Cookie-Policy.php">Cookie Policy</a>
                     </li>
                 </ul>
             </div>
         </div>
-</nav>
+    </nav>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Custom JavaScript -->
-<script src="toggle-menu.js"></script>
-
+    <!-- Custom JavaScript -->
+    <script src="js/toggle-menu.js"></script>
 </body>
 </html>
