@@ -12,6 +12,7 @@ include 'header-legal.php'; ?>
 <body>
     <br><br><br>
     <h1 class="h1">Legal Pages</h1>
+    <center><p>&copy; Read1s One-time message service <?php echo date('Y'); ?></p></center>
     <br>
     <ul class="ul">
         <li class="li"><a class="a" href="Terms-of-Service.php">Terms of Service</a></li>

@@ -11,7 +11,7 @@
     grid-template-rows: 1fr 1fr;     /* 2 filas */
     gap: 25px;                       /* Espacio entre elementos */
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 90%;                      /* Aumentado para más ancho horizontal */
     list-style-type: none;
     margin: 0 auto;                  /* Centrado horizontal */
@@ -19,7 +19,7 @@
 
 .li {
     background-color: #f0f0f0;
-    border-radius: 8px;
+    border-radius: 20px;
     overflow: hidden;
     transition: 1s;
     min-height: 100px;               /* Un poco menos de altura vertical */
