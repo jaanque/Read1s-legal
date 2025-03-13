@@ -6,24 +6,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Check if the elements exist
     if (navbarToggler && navbarCollapse) {
-        // Add click event listener to the toggler button
-        navbarToggler.addEventListener('click', function() {
-            // Toggle the 'show' class on the collapse element
-            navbarCollapse.classList.toggle('show');
-            
-            // Toggle the 'aria-expanded' attribute on the button
-            const isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';
-            navbarToggler.setAttribute('aria-expanded', !isExpanded);
-        });
-
+        // We'll rely on Bootstrap's built-in toggle functionality
+        // And only add our own functionality for the nav links
+        
         // Close the menu when a nav link is clicked (better mobile experience)
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
         navLinks.forEach(function(link) {
             link.addEventListener('click', function() {
                 // Only close if the navbar is expanded (mobile view)
-                if (window.innerWidth < 992) { // Bootstrap lg breakpoint
-                    navbarCollapse.classList.remove('show');
-                    navbarToggler.setAttribute('aria-expanded', 'false');
+                if (window.innerWidth < 992 && navbarCollapse.classList.contains('show')) { // Bootstrap lg breakpoint
+                    // Use Bootstrap's collapse method to hide the menu
+                    bootstrap.Collapse.getInstance(navbarCollapse).hide();
                 }
             });
         });
