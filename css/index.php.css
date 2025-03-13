@@ -1,0 +1,62 @@
+.h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* 2 columnas */
+    grid-template-rows: 1fr 1fr;     /* 2 filas */
+    gap: 25px;                       /* Espacio entre elementos */
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;                      /* Aumentado para más ancho horizontal */
+    list-style-type: none;
+    margin: 0 auto;                  /* Centrado horizontal */
+}
+
+.li {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 1s;
+    min-height: 100px;               /* Un poco menos de altura vertical */
+    width: 100%;                    /* Asegura que ocupe todo el ancho disponible */
+    border: #f0f0f0 solid 1px;
+}
+
+.li:hover {
+    transition: 1s;
+    border: 1px solid #333;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.li .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 110px;              /* Más padding horizontal, menos vertical */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+    .ul {
+        grid-template-columns: 1fr;  /* Cambia a 1 columna en pantallas pequeñas */
+        grid-template-rows: repeat(4, 1fr);
+        width: 90%;
+    }
+
+    .li .a {
+        padding: 30px 50px;          /* Ajusta el padding para pantallas pequeñas */
+        font-size: 20px;
+    }
+}
