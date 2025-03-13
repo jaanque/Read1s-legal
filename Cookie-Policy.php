@@ -50,5 +50,11 @@ include 'header-legal.php';
         <h2>7. Contact</h2>
         <p>If you have any questions or concerns regarding our use of cookies, please contact us at the following email address: <strong><a href="mailto:contact@read1s.com">contact@read1s.com</a></strong>.</p>
     </section>
+
+        <!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JavaScript -->
+<script src="toggle-menu.js"></script>
+
 </body>
 </html>

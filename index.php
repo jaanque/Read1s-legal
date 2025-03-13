@@ -19,5 +19,11 @@ include 'header-legal.php'; ?>
         <li class="li"><a class="a" href="Privacy-Policy.php">Privacy Policy</a></li>
         <li class="li"><a class="a" href="Legal-Notice.php">Legal Notice</a></li>
     </ul>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JavaScript -->
+<script src="toggle-menu.js"></script>
+
 </body>
 </html>
