@@ -11,6 +11,7 @@ include 'header-legal.php';
     <title>Legal Notice - Read1s</title>
 </head>
 <body style="text-align: center;">
+    <br><br>
     <header>
         <h1>Legal Notice of Read1s</h1>
         <p class="date">Effective date: 12-03-2025</p>
@@ -23,7 +24,7 @@ include 'header-legal.php';
         <ul>
             <li><strong>Owner:</strong> Read1s</li>
             <li><strong>Website:</strong> www.read1s.com</li>
-            <li><strong>Contact Email: </strong><a href="mailto:contact@read1s.com">contact@read1s.com</a></li>
+            <li><strong>Contact Email: </strong><strong><a href="mailto:contact@read1s.com">contact@read1s.com</a></strong></li>
         </ul>
 
         <h2>2. Purpose</h2>

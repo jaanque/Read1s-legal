@@ -11,6 +11,7 @@ include 'header-legal.php';
     <title>Terms of Service - Read1s</title>
 </head>
 <body style="text-align: center;">
+<br><br>
     <header>
         <h1>Terms of Service for Read1s</h1>
         <p class="date">Effective date: 12-03-2025</p>

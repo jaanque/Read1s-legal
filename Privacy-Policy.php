@@ -11,6 +11,7 @@ include 'header-legal.php';
     <title>Read1s | Privacy Policy</title>
 </head>
 <body style="text-align: center;">
+<br><br>
     <header>
         <h1><strong>Privacy Policy of Read1s</strong></h1>
         <p class="date">Effective date: 12-03-2025</p>
